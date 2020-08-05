@@ -58,7 +58,7 @@ workflows:
       - deploy-docs:
           requires:
             - test
-            - docs-build
+            - build-docs
           filters:
             branches:
               only: master
